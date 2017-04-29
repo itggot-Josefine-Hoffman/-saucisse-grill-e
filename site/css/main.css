@@ -64,7 +64,9 @@ max-width: inherit;
     }
 }
 .meny{
-
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .light{
 
