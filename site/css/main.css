@@ -30,6 +30,11 @@ max-width: inherit;
   margin-bottom: 10px;
   background-image: url("sand.jpg");
 }
+img{
+  max-width: 100%;
+  display:block;
+  height: auto;
+}
 @media only screen
   and (min-device-width: 800px){
     .header{
@@ -52,6 +57,10 @@ max-width: inherit;
     footer{
       visibility: hidden;
     }
+    .menybyte{
+      height: 50px;
+    }
+
 }
 @media only screen
   and (min-device-width: 501px)
@@ -76,4 +85,7 @@ justify-content: center;
 }
 .hidden{
   display: none;
+}
+.menybyte{
+
 }
