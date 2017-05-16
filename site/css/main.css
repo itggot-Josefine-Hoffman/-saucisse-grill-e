@@ -89,3 +89,20 @@ justify-content: center;
 .menybyte{
 
 }
+.banderoll{
+background-color: white;
+}
+.lada{
+  display: flex;
+  flex-direction: row;
+}
+.helicopter{
+    background-color: white;
+    margin: 10px;
+    flex-grow: 5;
+}
+.mer{
+  background-color: white;
+  margin: 10px;
+  flex-grow: 3;
+}
