@@ -44,6 +44,9 @@ img{
       display: flex;
       flex-direction: row;
     }
+    .menytext{
+      visibility: hidden;
+    }
   }
 @media only screen
   and (max-device-width: 500px)
@@ -68,6 +71,19 @@ img{
       display: flex;
       flex-direction: column;
     }
+    .klick , .menybyte{
+      display: none;
+    }
+    .menytext{
+      background-image: url("menybak.jpg");
+      margin-top: 20px;
+    }
+    .mat , .dryck{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
 
 }
 @media only screen
@@ -82,6 +98,9 @@ img{
     .lada{
       display: flex;
       flex-direction: row;
+    }
+    .menytext{
+      visibility: hidden;
     }
 }
 .meny{
