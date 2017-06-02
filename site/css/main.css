@@ -1,7 +1,9 @@
 body{
   background-color: #F7E7CE;
   font-family: 'Josefin Slab', serif;
-  margin: 0;
+  height: 100%;
+   margin: 0;
+   padding: 0;
 }
 header{
   display: flex;
@@ -107,7 +109,10 @@ img{
       visibility: hidden;
     }
     .footer{
-      margin-bottom: 0;
+      bottom: 0;
+    }
+    body{
+      height: 1000px;
     }
 
 }
@@ -186,4 +191,7 @@ width: 100px;
 .infotext{
   display: flex;
 justify-content: center;
+}
+.footer{
+  bottom: 0;
 }
